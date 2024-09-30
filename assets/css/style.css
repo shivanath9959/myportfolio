@@ -10,7 +10,7 @@
 
 @font-face {
     font-family: 'Dancing Script';
-    src: url('/myportfolio/assets/fonts/DancingScript-Medium.ttf') format('truetype');
+    src: url(/myportfolio/assets/fonts/DancingScript-Medium.ttf) format('truetype');
 }
 
 
@@ -55,7 +55,7 @@ a:hover{
     left: 0;
     width: 100%;
     height: 100%;
-    background: #000 url('/myportfolio/assets/images/dark-bg.webp') 50% no-repeat;
+    background: #000 url(/myportfolio/assets/images/dark-bg.webp) 50% no-repeat;
     background-size: cover;
     filter: brightness(50%);
     -webkit-filter: brightness(50%);
@@ -650,7 +650,7 @@ a:hover{
 
 #tools{
     padding: 100px 0px 80px 0px;
-    background-image: url(/assets/images/grid.png);
+    background-image: url(/myportfolio/assets/images/grid.png);
     background-size: contain;
     min-height: 100vh;
 }
@@ -695,7 +695,7 @@ a:hover{
 #projects{
     padding: 100px 0px 80px 0px;
     min-height: 100vh;
-    background-image: url(/assets/images/grid.png);
+    background-image: url(/myportfolio/assets/images/grid.png);
     background-size: contain;
 }
 
@@ -812,7 +812,7 @@ a:hover{
 #testimonials {
     padding: 100px 0px;
     min-height: 100vh;
-    background-image: url(/assets/images/grid.png);
+    background-image: url(/myportfolio/assets/images/grid.png);
     background-size: contain;
 }
 
@@ -901,7 +901,7 @@ a:hover{
 #blogs{
     padding: 100px 0px;
     min-height: 100vh;
-    background-image: url(/assets/images/grid.png);
+    background-image: url(/myportfolio/assets/images/grid.png);
     background-size: contain;
 }
 
@@ -972,7 +972,7 @@ a:hover{
 #contact{
     padding: 100px 0;
     min-height: 100vh;
-    background-image: url(/assets/images/grid.png);
+    background-image: url(/myportfolio/assets/images/grid.png);
     background-size: contain;
 }
 
